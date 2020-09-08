@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is common site</title>
+    <!--Bootstrap css link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--Font awesome cdn link-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Google font css link-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!--External css link-->
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+
+    <div id="converter">
+        <div class="container d-flex flex-column align-items-center my-4">
+            <h3 class="text-center text-uppercase"><u>converter</u></h3>
+            <div class="my-3">
+                <input class="text-center font-weight-bold" type="number" name="" id="inch" placeholder="Inch">
+                <button id="inchToFeet" class="btn btn-success btn-sm mx-4">Convert</button>
+                <input class="text-center font-weight-bold disable" type="number" name="" id="feet" placeholder="Feet">
+            </div>
+            <div class="my-3">
+                <input class="text-center font-weight-bold" type="number" name="" id="meter" placeholder="Meter">
+                <button id="meterToKm" class="btn btn-success btn-sm mx-4">Convert</button>
+                <input class="text-center font-weight-bold" type="number" name="" id="km" placeholder="Kilometer">
+            </div>
+            <div class="my-3">
+                <input class="text-center font-weight-bold" type="number" name="" id="meter2" placeholder="Meter">
+                <button id="meterToMile" class="btn btn-success btn-sm mx-4">Convert</button>
+                <input class="text-center font-weight-bold" type="number" name="" id="mile" placeholder="Mile">
+            </div>
+            <div class="my-3">
+                <input class="text-center font-weight-bold" type="number" name="" id="cm" placeholder="Centimeter">
+                <button id="cmToFeet" class="btn btn-success btn-sm mx-4">Convert</button>
+                <input class="text-center font-weight-bold" type="number" name="" id="feet2" placeholder="Feet">
+            </div>
+        </div>
+    </div>
+
+
+    <div id="woodConverter">
+        <div class="container d-flex flex-column align-items-center my-4">
+            <h3 class="text-center text-uppercase"><u>Wood Convert</u></h3>
+            <div class="my-3">
+                <input class="text-center font-weight-bold" type="text" name="" id="chair" placeholder="Chair">
+                <button id="chairBtn" class="btn btn-success btn-sm mx-4">Convert</button>
+                <h5 id="chairText" class="text-center d-inline-block">Square feet wood</h5>
+            </div>
+            <div class="my-3">
+                <input class="text-center font-weight-bold" type="text" name="" id="table" placeholder="Table">
+                <button id="tableBtn" class="btn btn-success btn-sm mx-4">Convert</button>
+                <h5 id="tableText" class="text-center d-inline-block">Square feet wood</h5>
+            </div>
+            <div class="my-3">
+                <input class="text-center font-weight-bold" type="text" name="" id="bed" placeholder="Bed">
+                <button id="bedBtn" class="btn btn-success btn-sm mx-4">Convert</button>
+                <h5 id="bedText" class="text-center d-inline-block">Square feet wood</h5>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2 class="text-center my-4"><u>Bricks Converter</u></h2>
+        <div class="d-flex justify-content-center my-4">
+            <input type="text" id="floor" class="form-control w-25" placeholder="Enter Building Floor Hare">
+            <button id="bricksConvertBtn" class="btn btn-success mx-4">Convert</button>
+            <h5 id="bricksConvertResult">Result</h5>
+        </div>
+    </div>
+
+
+
+
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assignment.js"></script>
+</body>
+</html>
