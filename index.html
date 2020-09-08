@@ -16,72 +16,90 @@
 
     <!--External css link-->
     <link rel="stylesheet" href="style.css">
-    <style>
-
-    </style>
 </head>
 <body>
 
+    <div class="">
+        <div id="convert-section">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div id="lengthConverter" class="d-flex flex-column align-items-center">
+                        <h3 class="text-center"><u>Length Converter</u></h3>
+                        <div class="mb-3 d-flex">
+                            <input type="text" id="inch" class="text-center" placeholder="Inch">
+                            <button id="inchToFeet" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="feet" class="text-center" placeholder="Feet" disabled>
+                        </div>
+                        <div class="mb-3 d-flex">
+                            <input type="text" id="meter" class="text-center" placeholder="Meter">
+                            <button id="meterToKilometer" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="kilometer" class="text-center" placeholder="Kilometer" disabled>
+                        </div>
+                        <div class="mb-3 d-flex">
+                            <input type="text" id="meter2" class="text-center" placeholder="meter">
+                            <button id="meterToMile" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="mile" class="text-center" placeholder="Mile" disabled>
+                        </div>
+                        <div class="mb-3 d-flex">
+                            <input type="text" id="centimeter" class="text-center" placeholder="Centimeter">
+                            <button id="centimeterToFeet" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="feet2" class="text-center" placeholder="Feet" disabled>
+                        </div>
+                    </div>
+                </div>
 
-    <div id="converter">
-        <div class="container d-flex flex-column align-items-center my-4">
-            <h3 class="text-center text-uppercase"><u>converter</u></h3>
-            <div class="my-3">
-                <input class="text-center font-weight-bold" type="number" name="" id="inch" placeholder="Inch">
-                <button id="inchToFeet" class="btn btn-success btn-sm mx-4">Convert</button>
-                <input class="text-center font-weight-bold disable" type="number" name="" id="feet" placeholder="Feet">
-            </div>
-            <div class="my-3">
-                <input class="text-center font-weight-bold" type="number" name="" id="meter" placeholder="Meter">
-                <button id="meterToKm" class="btn btn-success btn-sm mx-4">Convert</button>
-                <input class="text-center font-weight-bold" type="number" name="" id="km" placeholder="Kilometer">
-            </div>
-            <div class="my-3">
-                <input class="text-center font-weight-bold" type="number" name="" id="meter2" placeholder="Meter">
-                <button id="meterToMile" class="btn btn-success btn-sm mx-4">Convert</button>
-                <input class="text-center font-weight-bold" type="number" name="" id="mile" placeholder="Mile">
-            </div>
-            <div class="my-3">
-                <input class="text-center font-weight-bold" type="number" name="" id="cm" placeholder="Centimeter">
-                <button id="cmToFeet" class="btn btn-success btn-sm mx-4">Convert</button>
-                <input class="text-center font-weight-bold" type="number" name="" id="feet2" placeholder="Feet">
+
+
+                <div class="col-md-6 col-sm-12">
+                    <div id="woodConvert" class="d-flex flex-column align-items-center">
+                        <h3 class="text-center"><u>Wood Convert</u></h3>
+                        <div class="mb-3">
+                            <input type="text" id="chairInput" class="text-center" placeholder="Number of Chair">
+                            <button id="chairBtn" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="chairWoodResult" class="text-center" placeholder="Result" disabled>
+                            
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="tableInput" class="text-center" placeholder="Number of Table">
+                            <button id="tableBtn" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="tableWoodResult" class="text-center" placeholder="Result" disabled>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="bedInput" class="text-center" placeholder="Number of Bed">
+                            <button id="bedBtn" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="bedWoodResult" class="text-center" placeholder="Result" disabled>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" id="lockerInput" class="text-center" placeholder="Number of Locker">
+                            <button id="lockerBtn" class="btn btn-success mx-4">Convert</button>
+                            <span class="mr-4">=</span>
+                            <input type="text" id="lockerResult" class="text-center" placeholder="Result" disabled>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <div id="bricksConvert" class="d-flex flex-column align-items-center">
+                        <h3 class="text-center"><u>Bricks Convert</u></h3>
+                        <div class="">
+                            <input type="text" id="floor" class="text-center" placeholder="Enter Building Floor">
+                            <button id="bricksConvertBtn" class="btn btn-success mx-4">Convert</button>
+                            <span>=</span>
+                            <input type="floor" id="bricksResult" class="text-center" placeholder="Result" disabled>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-    <div id="woodConverter">
-        <div class="container d-flex flex-column align-items-center my-4">
-            <h3 class="text-center text-uppercase"><u>Wood Convert</u></h3>
-            <div class="my-3">
-                <input class="text-center font-weight-bold" type="text" name="" id="chair" placeholder="Chair">
-                <button id="chairBtn" class="btn btn-success btn-sm mx-4">Convert</button>
-                <h5 id="chairText" class="text-center d-inline-block">Square feet wood</h5>
-            </div>
-            <div class="my-3">
-                <input class="text-center font-weight-bold" type="text" name="" id="table" placeholder="Table">
-                <button id="tableBtn" class="btn btn-success btn-sm mx-4">Convert</button>
-                <h5 id="tableText" class="text-center d-inline-block">Square feet wood</h5>
-            </div>
-            <div class="my-3">
-                <input class="text-center font-weight-bold" type="text" name="" id="bed" placeholder="Bed">
-                <button id="bedBtn" class="btn btn-success btn-sm mx-4">Convert</button>
-                <h5 id="bedText" class="text-center d-inline-block">Square feet wood</h5>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-        <h2 class="text-center my-4"><u>Bricks Converter</u></h2>
-        <div class="d-flex justify-content-center my-4">
-            <input type="text" id="floor" class="form-control w-25" placeholder="Enter Building Floor Hare">
-            <button id="bricksConvertBtn" class="btn btn-success mx-4">Convert</button>
-            <h5 id="bricksConvertResult">Result</h5>
-        </div>
-    </div>
-
-
 
 
   

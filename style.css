@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* #convert-section{
+    width: 50%;
+    
+} */
+
+#lengthConverter,#woodConvert, #bricksConvert{
+    margin-bottom: 20px;
+}
+
+#lengthConverter h3,#woodConvert h3, #bricksConvert h3{
+    margin: 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (min-width: 576px) {
+    #convert-section{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+ }
+
+@media (min-width: 768px) { 
+    #convert-section{
+        width: 75%;
+        margin: auto;
+
+}
+
+@media (min-width: 992px) { 
+    #convert-section{
+        width: 75%;
+        margin: auto;
+}
+
+@media (min-width: 1200px) { 
+    #convert-section{
+        width: 50%;
+        margin: auto;
+} */
